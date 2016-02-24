@@ -37,7 +37,7 @@ final class WatchWidgetView : UIView, ViewModelRendering {
 
     // MARK - Transitions
 
-    func handleTransitionFromState(state: RenderingState<ViewModel>?, toState: RenderingState<ViewModel>) {
+    private func handleTransitionFromState(state: RenderingState<ViewModel>?, toState: RenderingState<ViewModel>) {
         switch (state, toState) {
             case (_, .Rendering(let viewModel)):
                 transitionToWaitingState(false)

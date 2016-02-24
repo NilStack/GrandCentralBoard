@@ -5,10 +5,6 @@
 
 import UIKit
 
-struct ImageViewModel {
-    let image: UIImage
-}
-
 final class ImageWidgetView : UIView, ViewModelRendering {
 
     typealias ViewModel = ImageViewModel

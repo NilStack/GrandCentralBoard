@@ -18,6 +18,13 @@
 		1A242D601C37F66000D5BEE5 /* AutoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A242D5F1C37F66000D5BEE5 /* AutoStack.swift */; };
 		1A5180141C3860010035092D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5180131C3860010035092D /* UIView.swift */; };
 		1A87495E1C385264006E58C6 /* RemoteImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A87495D1C385264006E58C6 /* RemoteImageSource.swift */; };
+		1ACBEBEB1C7E12AB009DA3AF /* ImageWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBEA1C7E12AB009DA3AF /* ImageWidgetViewModel.swift */; };
+		1ACBEBEE1C7E131A009DA3AF /* WhosHereWidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACBEBED1C7E131A009DA3AF /* WhosHereWidgetView.xib */; };
+		1ACBEBF01C7E13DF009DA3AF /* WhosHereWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBEF1C7E13DF009DA3AF /* WhosHereWidgetView.swift */; };
+		1ACBEBF21C7E153E009DA3AF /* WhosHereWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBF11C7E153E009DA3AF /* WhosHereWidgetViewModel.swift */; };
+		1ACBEBF41C7E1575009DA3AF /* WhosHereWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBF31C7E1575009DA3AF /* WhosHereWidget.swift */; };
+		1ACBEBF61C7E162E009DA3AF /* RemoteCollectionOfImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBF51C7E162E009DA3AF /* RemoteCollectionOfImages.swift */; };
+		1ACBEBF81C7E1742009DA3AF /* WhosHereWidgetBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACBEBF71C7E1742009DA3AF /* WhosHereWidgetBuilder.swift */; };
 		1AD5EA951C7B819D00210BB9 /* ImageWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5EA931C7B819D00210BB9 /* ImageWidgetView.swift */; };
 		1AD5EA961C7B819D00210BB9 /* ImageWidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD5EA941C7B819D00210BB9 /* ImageWidgetView.xib */; };
 		1AD5EA991C7B827300210BB9 /* WatchWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5EA981C7B827300210BB9 /* WatchWidgetView.swift */; };
@@ -72,6 +79,13 @@
 		1A242D5F1C37F66000D5BEE5 /* AutoStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoStack.swift; sourceTree = "<group>"; };
 		1A5180131C3860010035092D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		1A87495D1C385264006E58C6 /* RemoteImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageSource.swift; sourceTree = "<group>"; };
+		1ACBEBEA1C7E12AB009DA3AF /* ImageWidgetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWidgetViewModel.swift; sourceTree = "<group>"; };
+		1ACBEBED1C7E131A009DA3AF /* WhosHereWidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhosHereWidgetView.xib; sourceTree = "<group>"; };
+		1ACBEBEF1C7E13DF009DA3AF /* WhosHereWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosHereWidgetView.swift; sourceTree = "<group>"; };
+		1ACBEBF11C7E153E009DA3AF /* WhosHereWidgetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosHereWidgetViewModel.swift; sourceTree = "<group>"; };
+		1ACBEBF31C7E1575009DA3AF /* WhosHereWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosHereWidget.swift; sourceTree = "<group>"; };
+		1ACBEBF51C7E162E009DA3AF /* RemoteCollectionOfImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteCollectionOfImages.swift; sourceTree = "<group>"; };
+		1ACBEBF71C7E1742009DA3AF /* WhosHereWidgetBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosHereWidgetBuilder.swift; sourceTree = "<group>"; };
 		1AD5EA931C7B819D00210BB9 /* ImageWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWidgetView.swift; sourceTree = "<group>"; };
 		1AD5EA941C7B819D00210BB9 /* ImageWidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageWidgetView.xib; sourceTree = "<group>"; };
 		1AD5EA981C7B827300210BB9 /* WatchWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchWidgetView.swift; sourceTree = "<group>"; };
@@ -201,6 +215,7 @@
 			children = (
 				1A87495D1C385264006E58C6 /* RemoteImageSource.swift */,
 				1AD5EA9E1C7C6DE300210BB9 /* TimeSource.swift */,
+				1ACBEBF51C7E162E009DA3AF /* RemoteCollectionOfImages.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -208,6 +223,7 @@
 		1A242D561C357DFD00D5BEE5 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				1ACBEBEC1C7E1302009DA3AF /* WhosHere */,
 				1AD5EA921C7B819D00210BB9 /* Image */,
 				1AD5EA971C7B826A00210BB9 /* Watch */,
 				1A242D5A1C357E9E00D5BEE5 /* Rendering.swift */,
@@ -233,9 +249,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		1ACBEBEC1C7E1302009DA3AF /* WhosHere */ = {
+			isa = PBXGroup;
+			children = (
+				1ACBEBF31C7E1575009DA3AF /* WhosHereWidget.swift */,
+				1ACBEBEF1C7E13DF009DA3AF /* WhosHereWidgetView.swift */,
+				1ACBEBED1C7E131A009DA3AF /* WhosHereWidgetView.xib */,
+				1ACBEBF11C7E153E009DA3AF /* WhosHereWidgetViewModel.swift */,
+				1ACBEBF71C7E1742009DA3AF /* WhosHereWidgetBuilder.swift */,
+			);
+			path = WhosHere;
+			sourceTree = "<group>";
+		};
 		1AD5EA921C7B819D00210BB9 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				1ACBEBEA1C7E12AB009DA3AF /* ImageWidgetViewModel.swift */,
 				1AD5EA931C7B819D00210BB9 /* ImageWidgetView.swift */,
 				1AD5EA941C7B819D00210BB9 /* ImageWidgetView.xib */,
 			);
@@ -374,6 +403,7 @@
 				1A242D261C357C2700D5BEE5 /* Main.storyboard in Resources */,
 				1AD5EA961C7B819D00210BB9 /* ImageWidgetView.xib in Resources */,
 				1AD5EA9B1C7B828200210BB9 /* WatchWidgetView.xib in Resources */,
+				1ACBEBEE1C7E131A009DA3AF /* WhosHereWidgetView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,19 +479,25 @@
 				1AD5EAAA1C7D2E3B00210BB9 /* WatchWidgetViewModel.swift in Sources */,
 				1A242D231C357C2700D5BEE5 /* ViewController.swift in Sources */,
 				1AD5EA991C7B827300210BB9 /* WatchWidgetView.swift in Sources */,
+				1ACBEBF41C7E1575009DA3AF /* WhosHereWidget.swift in Sources */,
+				1ACBEBF61C7E162E009DA3AF /* RemoteCollectionOfImages.swift in Sources */,
 				1AD5EA9F1C7C6DE300210BB9 /* TimeSource.swift in Sources */,
 				1A242D601C37F66000D5BEE5 /* AutoStack.swift in Sources */,
 				1AD6E8031C7DDC000003121C /* WatchWidgetBuilder.swift in Sources */,
 				1AD6E8051C7DDD540003121C /* Configuration.swift in Sources */,
 				1A5180141C3860010035092D /* UIView.swift in Sources */,
+				1ACBEBEB1C7E12AB009DA3AF /* ImageWidgetViewModel.swift in Sources */,
 				1A242D4E1C357C7700D5BEE5 /* Timed.swift in Sources */,
 				1A242D501C357CA500D5BEE5 /* Source.swift in Sources */,
+				1ACBEBF01C7E13DF009DA3AF /* WhosHereWidgetView.swift in Sources */,
 				1AD5EAA21C7CFE4E00210BB9 /* UILabel.swift in Sources */,
 				1AD5EAAC1C7DA9BB00210BB9 /* Scheduler.swift in Sources */,
 				1AD5EAA41C7D125A00210BB9 /* WatchWidget.swift in Sources */,
 				1A242D211C357C2700D5BEE5 /* AppDelegate.swift in Sources */,
 				1A87495E1C385264006E58C6 /* RemoteImageSource.swift in Sources */,
+				1ACBEBF21C7E153E009DA3AF /* WhosHereWidgetViewModel.swift in Sources */,
 				1A242D5B1C357E9E00D5BEE5 /* Rendering.swift in Sources */,
+				1ACBEBF81C7E1742009DA3AF /* WhosHereWidgetBuilder.swift in Sources */,
 				1AD5EA951C7B819D00210BB9 /* ImageWidgetView.swift in Sources */,
 				1AD6E8011C7DC92B0003121C /* GrandCentralBoard.swift in Sources */,
 				1AD5EAA81C7D291300210BB9 /* Widget.swift in Sources */,
